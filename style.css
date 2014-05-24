@@ -1,0 +1,721 @@
+/*
+Theme Name: Some@ Personal Blog
+Author: Samet Aydemir
+Version: 1.0
+Text Domain: some@ 
+*/
+/* Body */
+/* line 13, assets/css/style.scss */
+html {
+  height: 100%;
+}
+
+/* line 16, assets/css/style.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  height: 100%;
+}
+
+/* line 23, assets/css/style.scss */
+*:focus {
+  outline: 0;
+}
+
+/* line 27, assets/css/style.scss */
+a.link {
+  color: #858585;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
+/* line 32, assets/css/style.scss */
+a.link:hover {
+  color: #444;
+}
+
+/* Alert */
+/* line 38, assets/css/style.scss */
+.alert {
+  background: #fcf8e3;
+  border: 1px solid #faebcc;
+  padding: 15px;
+  border-radius: 3px;
+  color: #8a6d3b;
+  margin-top: 20px;
+}
+
+/* Buton */
+/* line 48, assets/css/style.scss */
+.btn {
+  padding: 6px 10px;
+  text-decoration: none;
+}
+
+/* line 52, assets/css/style.scss */
+.tripbtn {
+  background: #ddd;
+  color: #656565;
+  border-radius: 2px;
+}
+
+/* line 58, assets/css/style.scss */
+.page-wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+/* Page Class */
+/* line 65, assets/css/style.scss */
+.page-content {
+  position: relative;
+  z-index: 0;
+  padding: 0px 20px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
+
+/* line 71, assets/css/style.scss */
+.container {
+  max-width: 960px;
+  margin: 0px auto;
+}
+
+/* line 76, assets/css/style.scss */
+.left {
+  float: left;
+}
+
+/* line 80, assets/css/style.scss */
+.right {
+  float: right;
+}
+
+/* line 84, assets/css/style.scss */
+.clear-fix {
+  clear: both;
+}
+
+/* line 88, assets/css/style.scss */
+img {
+  max-width: 960px;
+  border-radius: 4px;
+}
+
+.wp-smiley{
+  width: 15px;
+  height: 15px;
+}
+
+/* line 93, assets/css/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #777;
+}
+
+/* header */
+/* line 98, assets/css/style.scss */
+header.header {
+  background: #FFF;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+/* line 102, assets/css/style.scss */
+header.header .sidebarToggle {
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
+/* line 107, assets/css/style.scss */
+header.header .logo {
+  font-family: 'Share', cursive;
+  font-size: 20px;
+  color: #ccc;
+  cursor: pointer;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* line 118, assets/css/style.scss */
+header.header .logo span {
+  color: #666;
+}
+/* line 121, assets/css/style.scss */
+header.header .logo a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* input[type=checkbox] #sidebarToggle */
+/* line 129, assets/css/style.scss */
+input#sidebarToggle {
+  display: none;
+}
+/* line 132, assets/css/style.scss */
+input#sidebarToggle:checked + .page-wrap .sidebar {
+  right: 0px;
+}
+/* line 135, assets/css/style.scss */
+input#sidebarToggle:checked + .page-wrap .page-content {
+  padding-right: 330px;
+}
+/* line 138, assets/css/style.scss */
+input#sidebarToggle:checked + .page-wrap .blogs {
+  padding: 15px;
+}
+
+/* Jumbotron */
+/* line 148, assets/css/style.scss */
+section.jumbotron {
+  font-family: 'Share', cursive;
+  background: url("assets/img/bg.png") repeat;
+  padding: 30px 0;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 152, assets/css/style.scss */
+section.jumbotron .avatar {
+  width: 256px;
+  margin: 0px auto;
+}
+/* line 155, assets/css/style.scss */
+section.jumbotron .avatar img {
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px #ddd;
+}
+/* line 160, assets/css/style.scss */
+section.jumbotron .user-info {
+  text-align: center;
+  margin: 25px auto 0 auto;
+  width: 50%;
+}
+/* line 164, assets/css/style.scss */
+section.jumbotron .user-info span {
+  display: block;
+  margin-top: 10px;
+}
+/* line 168, assets/css/style.scss */
+section.jumbotron .user-info span.user-name {
+  font-size: 25pt;
+  color: #7f7f7f;
+}
+/* line 172, assets/css/style.scss */
+section.jumbotron .user-info span.user-position {
+  font-size: 13pt;
+  color: #bdbcbc;
+}
+/* line 176, assets/css/style.scss */
+section.jumbotron .user-info .braces {
+  font-size: 50pt;
+  color: #e8e8e8;
+  display: inline;
+}
+/* line 181, assets/css/style.scss */
+section.jumbotron .user-info .social {
+  margin-top: 35px;
+}
+/* line 183, assets/css/style.scss */
+section.jumbotron .user-info .social ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 187, assets/css/style.scss */
+section.jumbotron .user-info .social ul li {
+  list-style: none;
+  float: left;
+  margin-right: 14%;
+}
+/* line 191, assets/css/style.scss */
+section.jumbotron .user-info .social ul li a {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
+/* line 195, assets/css/style.scss */
+section.jumbotron .user-info .social ul li a:hover {
+  color: #888;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
+/* line 200, assets/css/style.scss */
+section.jumbotron .user-info .social ul li:last-child {
+  margin-right: 0;
+}
+
+/* Blogs */
+/* line 210, assets/css/style.scss */
+.blogs {
+  margin-top: 30px;
+}
+/* line 212, assets/css/style.scss */
+.blogs article.blog {
+  padding: 8px;
+  margin-bottom: 70px;
+}
+/* line 215, assets/css/style.scss */
+.blogs article.blog:nth-child(even) {
+  background: #f9f9f9;
+  border: 1px solid #f7f7f7;
+}
+/* line 219, assets/css/style.scss */
+.blogs article.blog .article-title {
+  font-size: 22px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+/* line 224, assets/css/style.scss */
+.blogs article.blog .article-title span.art-title a {
+  text-decoration: none;
+  color: #000;
+}
+/* line 227, assets/css/style.scss */
+.blogs article.blog .article-title span.art-title a:hover {
+  text-decoration: underline;
+}
+/* line 232, assets/css/style.scss */
+.blogs article.blog .article-title span.art-date {
+  color: #666;
+  font-size: 15px;
+  display: block;
+}
+/* line 238, assets/css/style.scss */
+.blogs article.blog .article-content {
+  color: #888;
+  line-height: 23px;
+}
+/* line 242, assets/css/style.scss */
+.blogs article.blog:last-child {
+  margin-bottom: 0;
+  border-bottom: 1px dashed #f1f1f1;
+  padding-bottom: 20px;
+}
+
+/* Post Categories */
+/* line 251, assets/css/style.scss */
+.post-categories {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  margin-left: 5px;
+}
+/* line 257, assets/css/style.scss */
+.post-categories li {
+  list-style: none;
+  margin: 0;
+  float: left;
+}
+/* line 261, assets/css/style.scss */
+.post-categories li a {
+  text-decoration: none;
+  color: #666;
+}
+/* line 264, assets/css/style.scss */
+.post-categories li a:hover {
+  border-bottom: 1px dotted #666;
+}
+
+/* line 271, assets/css/style.scss */
+.category {
+  margin-left: 10px;
+}
+
+/* Pagination */
+/* line 276, assets/css/style.scss */
+.pagination {
+  margin-top: 35px;
+  margin-bottom: -35px;
+}
+/* line 279, assets/css/style.scss */
+.pagination a {
+  text-decoration: none;
+  color: #444;
+  border-bottom: 1px dotted #666;
+  padding-bottom: 2px;
+}
+
+/* Single Article */
+/* line 288, assets/css/style.scss */
+article.single {
+  margin: 25px 0 0 0;
+}
+/* line 290, assets/css/style.scss */
+article.single .single-article-title {
+  font-size: 22px;
+  color: #858585;
+  text-align: center;
+}
+/* line 294, assets/css/style.scss */
+article.single .single-article-title a {
+  text-decoration: none;
+  color: #444;
+  border-bottom: 1px dotted #222;
+}
+/* line 300, assets/css/style.scss */
+article.single .single-article-info {
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  border-bottom: 1px solid #f5f5f5;
+  margin: 0 0 15px 0;
+}
+/* line 306, assets/css/style.scss */
+article.single .single-article-info span {
+  padding: 8px 10px 25px 10px;
+  display: inline-block;
+}
+/* line 310, assets/css/style.scss */
+article.single .single-article-info a {
+  color: #ccc;
+  text-decoration: none;
+}
+/* line 315, assets/css/style.scss */
+article.single .single-article-content {
+  color: #656565;
+  line-height: 25px;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 15px;
+}
+
+article.single .single-article-content img.cont-img{
+    width: 100%;
+}
+/* line 322, assets/css/style.scss */
+article.single .social-button {
+  background: #f9f9f9;
+  padding: 10px 5px 5px 5px;
+  margin-bottom: 15px;
+  border-right: 4px solid #eee;
+  border-bottom: 4px solid #eee;
+}
+/* line 328, assets/css/style.scss */
+article.single .social-button div.facebook {
+  float: left;
+}
+/* line 331, assets/css/style.scss */
+article.single .social-button div.twitter {
+  float: left;
+  margin-left: 25px;
+  margin-right: -10px;
+}
+/* line 336, assets/css/style.scss */
+article.single .social-button div.googleplus {
+  float: left;
+}
+
+/* Pages */
+/* Pages-Head */
+/* line 345, assets/css/style.scss */
+.pages-head {
+  font-size: 22px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #858585;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* Pages-Content */
+/* line 355, assets/css/style.scss */
+.pages-content {
+  color: #656565;
+  line-height: 25px;
+}
+
+/* Sidebar */
+/* line 361, assets/css/style.scss */
+.sidebar {
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  position: fixed;
+  top: 0px;
+  right: -350px;
+  bottom: 0px;
+  width: 200px;
+  padding: 25px 50px 50px 50px;
+  background: #333;
+  z-index: 0;
+  font-size: 14px;
+}
+/* line 362, assets/css/style.scss */
+.sidebar .sidebarBox {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+/* line 365, assets/css/style.scss */
+.sidebar .sidebarBox a {
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+/* line 369, assets/css/style.scss */
+.sidebar .sidebarBox a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 373, assets/css/style.scss */
+.sidebar .sidebarBox ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 376, assets/css/style.scss */
+.sidebar .sidebarBox ul li {
+  list-style: none;
+  color: white;
+}
+/* line 379, assets/css/style.scss */
+.sidebar .sidebarBox ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* line 382, assets/css/style.scss */
+.sidebar .sidebarBox ul li a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 396, assets/css/style.scss */
+.sidebar ul {
+  margin: 0 0 30px 0;
+  padding: 0;
+}
+/* line 399, assets/css/style.scss */
+.sidebar ul li {
+  list-style: none;
+  margin: 0;
+  color: white;
+  margin-bottom: 15px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
+/* line 407, assets/css/style.scss */
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* line 410, assets/css/style.scss */
+.sidebar ul li a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+/* line 416, assets/css/style.scss */
+.sidebar .title {
+  color: rgba(255, 255, 255, 0.5);
+  border-bottom: 2px solid #363636;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* İnputs */
+/* line 429, assets/css/style.scss */
+input[type=text].form-control {
+  background: #444;
+  width: 100%;
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+  padding: 0px 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+/* line 440, assets/css/style.scss */
+.input-icon-search {
+  position: absolute;
+  margin-top: -20px;
+  right: 45px;
+  color: #888;
+}
+
+/* line 447, assets/css/style.scss */
+.searchMessage {
+  text-align: center;
+  background: #f9f9f9;
+  padding: 8px;
+}
+
+/*Comment Output*/
+/* line 454, assets/css/style.scss */
+.commentlist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 20px;
+}
+/* line 459, assets/css/style.scss */
+.commentlist .children {
+  list-style: none;
+  margin-bottom: 20px;
+}
+/* line 464, assets/css/style.scss */
+.commentlist .comment-author img {
+  border-radius: 50%;
+  border: 4px solid #eee;
+}
+/* line 468, assets/css/style.scss */
+.commentlist .comment-author .author-detail {
+  margin-top: -65px;
+  margin-bottom: 65px;
+  margin-left: 130px;
+}
+/* line 472, assets/css/style.scss */
+.commentlist .comment-author .author-detail .author-name {
+  padding: 3px;
+}
+/* line 474, assets/css/style.scss */
+.commentlist .comment-author .author-detail .author-name span {
+  font-size: 10px;
+  color: #999;
+}
+/* line 478, assets/css/style.scss */
+.commentlist .comment-author .author-detail .author-name a {
+  text-decoration: none;
+  color: #656565;
+  border-bottom: 1px dotted #555;
+}
+/* line 484, assets/css/style.scss */
+.commentlist .comment-author .author-detail .comment_date {
+  text-decoration: none;
+  float: right;
+  padding: 4px;
+  color: #858585;
+  font-size: 11px;
+}
+/* line 494, assets/css/style.scss */
+.commentlist .reply {
+  float: right;
+  background: #f5f5f5;
+  padding: 5px;
+  margin-top: -25px;
+}
+/* line 499, assets/css/style.scss */
+.commentlist .reply a {
+  text-decoration: none;
+  color: #858585;
+}
+/* line 505, assets/css/style.scss */
+.commentlist .comment-content {
+  background: #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #e1e1e1;
+  border-right: 3px solid #e1e1e1;
+}
+/* line 514, assets/css/style.scss */
+.commentlist .comment-content a {
+  text-decoration: none;
+  color: #666;
+  border-bottom: 1px dotted #656565;
+}
+/* line 519, assets/css/style.scss */
+.commentlist .comment-content:before {
+  content: '';
+  border: 10px solid transparent;
+  border-bottom-color: #ddd;
+  position: absolute;
+  margin-top: -26px;
+  margin-left: 30px;
+}
+
+/* line 531, assets/css/style.scss */
+#respond #reply-title {
+  display: none;
+}
+
+/* line 537, assets/css/style.scss */
+#commentform .logged-in-as {
+  padding: 8px;
+  border-left: 4px solid #f2f2f2;
+}
+/* line 540, assets/css/style.scss */
+#commentform .logged-in-as a {
+  border-bottom: 1px dotted #666;
+  text-decoration: none;
+  color: #656565;
+}
+/* line 547, assets/css/style.scss */
+#commentform .comment-notes {
+  padding: 8px;
+  border-left: 4px solid #f2f2f2;
+  color: #888;
+}
+/* line 554, assets/css/style.scss */
+#commentform p input[type=text] {
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 1px;
+  font-size: 14px;
+}
+/* line 561, assets/css/style.scss */
+#commentform p textarea {
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 1px;
+  font-size: 14px;
+}
+/* line 568, assets/css/style.scss */
+#commentform p input[type=submit] {
+  background: #eee;
+  border: 2px solid #ccc;
+  padding: 4px 7px;
+  font-size: 14px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
+/* line 574, assets/css/style.scss */
+#commentform p input[type=submit]:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+/* line 579, assets/css/style.scss */
+#commentform p label {
+  display: block;
+  margin-bottom: 3px;
+}
+/* line 585, assets/css/style.scss */
+#commentform .form-allowed-tags {
+  color: #888;
+  font-size: 13px;
+}
+/* line 588, assets/css/style.scss */
+#commentform .form-allowed-tags code {
+  display: block;
+  margin-top: 5px;
+  border-top: 1px solid #eee;
+  padding-top: 5px;
+}
+
+/* line 598, assets/css/style.scss */
+.footer-ghost {
+  height: 80px;
+}
+
+/* Footer */
+/* line 603, assets/css/style.scss */
+footer {
+  border-top: 1px solid #ddd;
+  background: #eee;
+  padding: 8px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+}
