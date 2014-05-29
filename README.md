@@ -10,10 +10,10 @@ Boş bulunan vakti değerlendirmek için oluşturulan, güzel olduğu düşünü
 Yapılacaklar
 ============
 
-- Wordpress Entegresi * [Tamamlandı]
-- DLE Entegresi * [Bekliyor]
-- Thoriap Entegresi * [Bekliyor]
-- Ghost Entegresi * [Bekliyor]
+* Wordpress Entegresi [Tamamlandı]
+* DLE Entegresi [Bekliyor]
+* Thoriap Entegresi [Bekliyor]
+* Ghost Entegresi [Bekliyor]
 
 Demo
 ====
