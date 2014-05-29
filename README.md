@@ -1,4 +1,4 @@
-Kişisel Blog Teması - some@
+Kişisel Blog Teması
 ===========================
 [![License](http://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/smtaydemir/personal-blog/)
 
@@ -10,10 +10,10 @@ Boş bulunan vakti değerlendirmek için oluşturulan, güzel olduğu düşünü
 Yapılacaklar
 ============
 
-- Wordpress Entegresi [Tamamlandı]
-- DLE Entegresi [Bekliyor]
-- Thoriap Entegresi [Bekliyor]
-- Ghost Entegresi [Bekliyor]
+- Wordpress Entegresi * [Tamamlandı]
+- DLE Entegresi * [Bekliyor]
+- Thoriap Entegresi * [Bekliyor]
+- Ghost Entegresi * [Bekliyor]
 
 Demo
 ====
