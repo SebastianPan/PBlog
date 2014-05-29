@@ -11,9 +11,9 @@ Yapılacaklar
 ============
 
 * Wordpress Entegresi [Tamamlandı]
-* DLE Entegresi [Bekliyor]
-* Thoriap Entegresi [Bekliyor]
-* Ghost Entegresi [Bekliyor]
+* DLE Entegresi
+* Thoriap Entegresi
+* Ghost Entegresi
 
 Demo
 ====
