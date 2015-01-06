@@ -19,6 +19,3 @@ Wordpress
 * Gerekli Eklentiler
   - [WP-PostViews](http://downloads.wordpress.org/plugin/wp-postviews.1.67.zip)
 
-Demo
-====
-http://www.sametaydemir.com
